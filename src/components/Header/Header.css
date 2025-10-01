@@ -1,0 +1,11 @@
+header{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span{
+  color: blue;
+  padding:  5px 15px;
+}

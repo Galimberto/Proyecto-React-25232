@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "soporte",
+    "price": 1000,
+    "category": "accesorio",
+    "description": "Soporte metalico para botellas de 750ml.",
+    "imageUrl": "/images/acce1.webp"
+  },
+  {
+    "id": "2",
+    "name": "cubierta",
+    "price": 2500,
+    "category": "repuesto",
+    "description": "Cubierta R29 con taco, todo terreno.",
+    "imageUrl": "/images/cubierta2.webp.jpg"
+  },
+  {
+    "id": "3",
+    "name": "pedal",
+    "category": "repuesto",
+    "price": 3000,
+    "description": "Pedal plataforma X3, dual.",
+    "imageUrl": "/images/pedal.webp"
+  },
+  {
+    "id": "4",
+    "name": "inflador",
+    "price": 4500,
+    "category": "accesorio",
+    "description": "Inflador de mano con soporte",
+    "imageUrl": "/images/infla.jpg"
+  },
+  {
+    "id": "5",
+    "name": "kit de luces",
+    "price": 3200,
+    "category": "accesorio",
+    "description": "Kit de 2 luces trasera/delantera con cable usb",
+    "imageUrl": "/images/luz4.webp.jpg"
+  },
+  {
+    "id": "6",
+    "name": "corneta",
+    "category": "repuesto",
+    "price": 1200,
+    "description": "Bocina tipo corneta muy ruidosa, 60db",
+    "imageUrl": "/images/timbre2.webp"
+  }
+]
