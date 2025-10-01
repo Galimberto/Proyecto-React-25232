@@ -13,7 +13,7 @@
     "price": 2500,
     "category": "repuesto",
     "description": "Cubierta R29 con taco, todo terreno.",
-    "imageUrl": "/images/cubierta2.webp.jpg"
+    "imageUrl": "/images/cubierta2.webp"
   },
   {
     "id": "3",
@@ -29,7 +29,7 @@
     "price": 4500,
     "category": "accesorio",
     "description": "Inflador de mano con soporte",
-    "imageUrl": "/images/infla.jpg"
+    "imageUrl": "/images/infla.webp"
   },
   {
     "id": "5",
@@ -37,7 +37,7 @@
     "price": 3200,
     "category": "accesorio",
     "description": "Kit de 2 luces trasera/delantera con cable usb",
-    "imageUrl": "/images/luz4.webp.jpg"
+    "imageUrl": "/images/luz4.webp"
   },
   {
     "id": "6",
