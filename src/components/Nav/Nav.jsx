@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 export const Nav = () => {
@@ -5,13 +6,13 @@ export const Nav = () => {
     <nav>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link to={"/"}>Home</Link>
         </li>
         <li>
-          <a href="#">DLC</a>
+          <Link to={"/category/accesorio"}>Accesorios</Link>
         </li>
         <li>
-          <a href="#">Juegos</a>
+          <Link to={"/category/repuesto"}>Repuestos</Link>
         </li>
       </ul>
     </nav>
