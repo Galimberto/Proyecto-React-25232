@@ -13,16 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-a {
-  font-weight: 500;
-  color: orange;
-  text-decoration: inherit;
-}
-a:hover {
-  color: orangered;
-}
-
 body {
   margin: 0 auto;
   max-width: 1200px;
