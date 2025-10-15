@@ -20,7 +20,6 @@ export const Nav = () => {
           <Link to={"/carrito"} className='icons-cart'>🛒</Link>
           {getTotalItems() > 0 && (
             <span className='in-cart'>{getTotalItems()}</span>)}
-
         </li>
       </ul>
     </nav>
