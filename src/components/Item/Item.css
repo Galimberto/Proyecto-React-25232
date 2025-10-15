@@ -34,3 +34,7 @@
 .product-item > p:nth-child(5){
   text-align: justify;
 }
+
+a {
+  text-decoration: none;
+}
