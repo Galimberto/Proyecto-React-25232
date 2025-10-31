@@ -7,9 +7,14 @@ header{
 
 span{
   color: lightskyblue;
-  padding:  5px 15px;
+  padding:  5px 0;
 }
 
 header h2{
   margin-left: 10px;
+  cursor: pointer;
+}
+header > a {
+  text-decoration: none;
+  color: inherit;
 }

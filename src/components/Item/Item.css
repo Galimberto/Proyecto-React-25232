@@ -38,3 +38,8 @@
 a {
   text-decoration: none;
 }
+.product-item > button{
+  background-color: rgb(124, 116, 116);
+  color: white;
+}
+
