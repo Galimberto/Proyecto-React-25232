@@ -5,8 +5,10 @@ import "./Header.css"
 export const Header = () => {
   return (
     <header>
-      <Link to={"/"}><h2>Ang<span>Dev.</span></h2></Link>
-      <Nav />
+      <div className="header-container">
+        <Link to={"/"}><h2>Ang<span>Dev.</span></h2></Link>
+        <Nav />
+      </div>
     </header>
   )
 }

@@ -11,13 +11,22 @@ export const CartProvider = ({children}) => {
   
   const addItem = (item) => {
     if (exists(item.id)) {
-      alert('El producto ya existe en el carrito')
-      return;
+      // map, cuido mutacion a nivel array
+      const updatedCart = cart.map((prod) => {
+        if (prod.id === item.id) {
+          //cuido mutacion a nivel de objeto
+          return {...prod, quantity: prod.quantity + item.quantity}
+        }else {
+          return prod
+        } 
+      })
+      setCart(updatedCart)
+      alert('Agregando al carrito')
+    } else{
+      setCart([...cart,item]);
+      alert(`${item.name} Agregando al carrito`)
     }
-
-    setCart([...cart,item]);
-    alert(`${item.name} agregando al carrito`)
-  }
+  }  
 
   const clearCart = () => setCart([]) 
 
@@ -28,6 +37,9 @@ export const CartProvider = ({children}) => {
   }
   const values = {cart, addItem, clearCart, getTotalItems}
   return (
-    <CartContext.Provider value={values}>{children}</CartContext.Provider>
+    <CartContext.Provider value={values}>
+      {children}
+    </CartContext.Provider>
   )
 }
+

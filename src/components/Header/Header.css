@@ -1,20 +1,25 @@
 header{
   background-color: rgb(105, 101, 101);
+  width: 100%;
+}
+
+.header-container{
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: .25rem;
 }
-
-span{
+.header-container span{
   color: lightskyblue;
-  padding:  5px 0;
 }
 
-header h2{
+.header-container h2{
   margin-left: 10px;
   cursor: pointer;
 }
-header > a {
+.header-container a {
   text-decoration: none;
   color: inherit;
 }

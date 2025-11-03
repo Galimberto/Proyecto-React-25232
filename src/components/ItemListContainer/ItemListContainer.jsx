@@ -23,7 +23,7 @@ export const ItemListContainer = ({titulo}) => {
 
   return (
     <section >
-      <h1>{titulo}</h1>
+      <h2>{titulo}</h2>
       <ItemList lista={products}/>
     </section>
   )
