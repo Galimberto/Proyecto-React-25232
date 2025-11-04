@@ -5,7 +5,7 @@ export const Item = ({name,price,description,imageUrl,children}) => {
     <article className="product-item">
       <img src={imageUrl} alt={description} />
       <h2>{name}</h2>
-      <p >Precio: ${price}</p>
+      <p>Precio: ${price.toLocaleString('es-AR')}</p>
       <p>Descripcion: {description}</p>
       {children}
     </article>

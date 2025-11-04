@@ -3,7 +3,7 @@
     "id": "1",
     "name": "soporte",
     "price": 1000,
-    "category": "accesorio",
+    "category": "accesorios",
     "description": "Soporte metalico para botellas de 750ml.",
     "info": "Echo en acero inoxidable, se provee dos tornillos allen m5 para su anclaje",
     "imageUrl": "/images/acce1.webp"
@@ -12,7 +12,7 @@
     "id": "2",
     "name": "cubierta",
     "price": 2500,
-    "category": "repuesto",
+    "category": "repuestos",
     "description": "Cubierta R29 con taco, todo terreno.",
     "info": "Importada, origen: Malasia, Maxxis Rekon Race 29 X 2.25 Exo",
     "imageUrl": "/images/cubierta2.webp"
@@ -20,7 +20,7 @@
   {
     "id": "3",
     "name": "pedal",
-    "category": "repuesto",
+    "category": "repuestos",
     "price": 3000,
     "description": "Ht X3 Dh Race Red - Downhill Rojo",
     "info": "Sistema de calas: Compatible con el exclusivo sistema X1 / X1F de HT, que permite una fijación segura y eficiente.",
@@ -30,7 +30,7 @@
     "id": "4",
     "name": "inflador",
     "price": 4500,
-    "category": "accesorio",
+    "category": "accesorios",
     "description": "Inflador Bici Giyo Válvula Inteligente Manometro",
     "info": "Inflador mini de aluminio que infla en doble sentido y esta provisto de Válvula Inteligente",
     "imageUrl": "/images/infla.webp"
@@ -39,7 +39,7 @@
     "id": "5",
     "name": "kit de luces",
     "price": 3200,
-    "category": "accesorio",
+    "category": "accesorios",
     "description": "Kit de luces ",
     "info": "trasera/delantera con cable usb y goma de sujecion",
     "imageUrl": "/images/luz4.webp"
@@ -47,7 +47,7 @@
   {
     "id": "6",
     "name": "corneta",
-    "category": "repuesto",
+    "category": "repuestos",
     "price": 1200,
     "description": "Bocina tipo corneta ",
     "info": "muy ruidosa 60db, con anclaje para manubrio",

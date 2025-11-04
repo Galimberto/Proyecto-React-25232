@@ -11,10 +11,10 @@ export const Nav = () => {
           <Link to={"/"}>Home</Link>
         </li>
         <li>
-          <Link to={"/category/accesorio"}>Accesorios</Link>
+          <Link to={"/category/accesorios"}>Accesorios</Link>
         </li>
         <li>
-          <Link to={"/category/repuesto"}>Repuestos</Link>
+          <Link to={"/category/repuestos"}>Repuestos</Link>
         </li>
         <li>
           <Link to={"/carrito"} className='icons-cart'>🛒</Link>
