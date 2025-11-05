@@ -6,9 +6,10 @@ import './ItemListContainer.css'
 export const ItemListContainer = ({titulo}) => {
   const [products, setProducts] = useState([])
   const {category} = useParams()
-
+  const BASE_URL = "https://690a71401a446bb9cc2290c2.mockapi.io/products";
+  {/* "/data/products.json" */ }
   useEffect(() => {
-    fetch("/data/products.json").then((res) => {
+    fetch(BASE_URL).then((res) => {
       if(!res.ok){
         throw new Error("Hubo un problema al buscar productos")
       }
