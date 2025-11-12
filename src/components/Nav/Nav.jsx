@@ -21,6 +21,9 @@ export const Nav = () => {
           {getTotalItems() > 0 && (
             <span className='in-cart'>{getTotalItems()}</span>)}
         </li>
+        <li>
+          <Link to={"/admin"}>admin</Link>
+        </li>
       </ul>
     </nav>
   )

@@ -1,3 +1,4 @@
+import './ProductFormUI.css'
 
 export const ProductFormUI = ({
   product,

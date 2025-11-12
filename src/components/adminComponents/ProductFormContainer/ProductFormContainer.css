@@ -102,6 +102,9 @@
   cursor: not-allowed;
 }
 
+.error{
+  color: red;
+}
 /* Layout responsive (opcional, si más adelante querés dos columnas) */
 @media (min-width: 640px) {
   .product-form .row-2 {
