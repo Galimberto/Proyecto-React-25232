@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import { useAuthContext } from '../../context/AuthContext/useAuthContext'
 import { Navigate, useNavigate } from 'react-router-dom'
+import "./Login.css"
 
 export const Login = () => {
   const [userForm, setUserForm] = useState({name: "", password: ""})
@@ -30,27 +31,29 @@ export const Login = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>Iniciar sesión</h2>
-      <div>
-        <label>Usuario:</label>
-        <input 
-          type="text"
-          name="name"
-          value={userForm.name}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label>Contraseña:</label>
-        <input 
-          type="password"
-          name="password"
-          value={userForm.password}
-          onChange={handleChange}
-        />
-      </div>
-      <button type="submit">Iniciar sesión</button>
-    </form>
+    <div className='form-container'>
+      <form onSubmit={handleSubmit} className='form-login'>
+        <h2>Iniciar sesión</h2>
+        <div>
+          <label>Usuario:</label>
+          <input 
+            type="text"
+            name="name"
+            value={userForm.name}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <label>Contraseña:</label>
+          <input 
+            type="password"
+            name="password"
+            value={userForm.password}
+            onChange={handleChange}
+          />
+        </div>
+        <button type="submit">Iniciar sesión</button>
+      </form>
+    </div>
   )
 }

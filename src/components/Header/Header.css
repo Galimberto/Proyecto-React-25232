@@ -11,13 +11,11 @@ header{
   align-items: center;
   padding: .25rem;
 }
-.header-container span{
-  color: lightskyblue;
-}
 
-.header-container h2{
+.header-container img{
   margin-left: 10px;
   cursor: pointer;
+  padding-top: 15px;
 }
 .header-container a {
   text-decoration: none;

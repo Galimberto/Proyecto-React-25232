@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ProductFormUI.css'
 
 export const ProductFormUI = ({
@@ -84,5 +85,6 @@ export const ProductFormUI = ({
         {loading ? "Guardando..." : "Guardar"}
       </button>
     </form>
+    <Link to={"/"}><div className='form-inicio'>👉Volver Home</div></Link>
   </section>);
 };

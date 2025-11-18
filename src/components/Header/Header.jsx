@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header>
       <div className="header-container">
-        <Link to={"/"}><h2>Ang<span>Dev.</span></h2></Link>
+        <Link to={"/"}><img src="./public/logo.svg"/></Link>
         <Nav />
       </div>
     </header>
